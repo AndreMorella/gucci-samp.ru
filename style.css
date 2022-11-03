@@ -17,9 +17,11 @@
 
 .moneys a
 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 15pt;
     width: 150px;
-    top: 2.5px;
-    left: 30px;
+    top:2.5px;
+    left:30px;
     position: relative;
 }
 
