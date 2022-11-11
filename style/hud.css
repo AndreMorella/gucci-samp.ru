@@ -6,7 +6,7 @@
 }
 
 .background {
-	background: url('https://andremorella.github.io/gucci-samp.ru/image/background/5.png') no-repeat;
+	background: url('https://andremorella.github.io/gucci-samp.ru/image/background/2.png') no-repeat;
 	width: 440px;
 	height: 216px;
 	background-size: 440px !important;
@@ -27,7 +27,7 @@
 }
 
 .background__gunid {
-	background: url('https://andremorella.github.io/gucci-samp.ru/image/guns/0.png');
+	background: url('https://andremorella.github.io/gucci-samp.ru/image/guns/');
 	width: 100px;
 	height: 100px;
 	background-size: 100px !important;
