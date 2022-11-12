@@ -30,32 +30,7 @@
 	width: 100px;
 	height: 100px;
 	background-size: 100px !important;
-}
-.background__gunid {
-	background: url('https://andremorella.github.io/gucci-samp.ru/image/guns/1.png');
-	width: 100px;
-	height: 100px;
-	background-size: 100px !important;
-}
-.background__gunid {
-	background: url('https://andremorella.github.io/gucci-samp.ru/image/guns/3.png');
-	width: 100px;
-	height: 100px;
-	background-size: 100px !important;
-}
-.background__gunid {
-	background: url('https://andremorella.github.io/gucci-samp.ru/image/guns/4.png');
-	width: 100px;
-	height: 100px;
-	background-size: 100px !important;
-}
-.background__gunid {
-	background: url('https://andremorella.github.io/gucci-samp.ru/image/guns/24.png');
-	width: 100px;
-	height: 100px;
-	background-size: 100px !important;
-}
-
+	
 .background__ammo {
 	margin-left: 4.5rem;
 	margin-top: -1.9rem;
