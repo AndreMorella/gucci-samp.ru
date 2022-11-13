@@ -6,7 +6,7 @@ let ammo = document.getElementById('ammo');
 let wanted = document.getElementById('wanted');
 let gun = document.getElementById('gunid');
 
-cef.emit("game:hud:setComponentVisible", "interface", true);
+cef.emit("game:hud:setComponentVisible", "interface", false);
 cef.emit("game:data:pollPlayerStats", true, 50);
 
 cef.on("game:hud:newVisibleState", (success) => cef.hide(!success));
