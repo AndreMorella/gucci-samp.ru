@@ -4,7 +4,6 @@
 	margin-right: 2rem;
     margin-top: 2rem;
 }
-
 .background {
 	background: url('../image/background/1.png') no-repeat;
 	width: 440px;
@@ -26,7 +25,7 @@
 }
 
 .background__gunid {
-	background: url('../image/guns/');
+	background: url('../image/guns/0.png');
 	width: 100px;
 	height: 100px;
 	background-size: 100px !important;
@@ -81,7 +80,7 @@
 }
 
 .background__wanted {
-    background: url(../image/wanted/) no-repeat center center;
+    background: url(../image/wanted/wanted-0.png) no-repeat center center;
     width: 100px;
     height: 230px;
     background-size: 100px !important;
