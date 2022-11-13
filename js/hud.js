@@ -6,12 +6,12 @@ let ammo = document.getElementById('ammo');
 let wanted = document.getElementById('wanted');
 let gun = document.getElementById('gunid');
 
-cef.emit("game:hud:setComponentVisible", "interface", false);
+cef.emit("game:hud:setComponentVisible", "interface", true);
 cef.emit("game:data:pollPlayerStats", true, 50);
 
 cef.on("game:hud:newVisibleState", (success) => cef.hide(!success));
 cef.on("hud:virus", (value) => virus.value = value);
-cef.on("game:data:playerStats", (hp, max_hp, arm, breath, wanteds, weapon, ammos, max_ammo, moneys, speed) => {
+cef.on("game:data:playerStats", (hp, max_hp, arm, breath, wanteds, weapon, ammos, max_ammo, moneys, speed,) => {
 	health.value = hp;
 	armour.value = arm;
 	money.innerHTML = moneys;
@@ -20,6 +20,6 @@ cef.on("game:data:playerStats", (hp, max_hp, arm, breath, wanteds, weapon, ammos
 	if(wanteds > 10) return;
 	else wanted.src = "/image/wanted/wanted-" + wanteds + ".png";
 	
-	if(weapon == 0)	ammo.innerHTML = "";
+	if(weapon == 46)	ammo.innerHTML = "/image/guns/";
 	else ammo.innerHTML = ammos + "/" + max_ammo;
 });
