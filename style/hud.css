@@ -6,7 +6,7 @@
 }
 
 .background {
-	background: url(../image/background/0.png) no-repeat;
+	background: url(../image/background/hud.png) no-repeat;
 	width: 440px;
 	height: 216px;
 	background-size: 440px !important;
